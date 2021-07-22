@@ -82,6 +82,12 @@ section {
     position: relative;
 }
 
+.submit { 
+    text-color:#fce138;
+    color:#024e76;
+
+}
+
 .hero-form {
     background-color:#fce138;
     padding: 20px;
