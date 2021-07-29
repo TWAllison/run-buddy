@@ -1,4 +1,4 @@
-# Run Buddy 
+# Run Buddy , Inc.
 
 ## Purpose
 A website that offers fitness training services.
@@ -12,3 +12,7 @@ https://twallison.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by T. W. Allison
+
+### ©️2019 Run Buddy, Inc
+
+
