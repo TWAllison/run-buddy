@@ -139,7 +139,7 @@ section {
     background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color:var(--secondary-color);
-    border: solid 3pvar(-);
+    border: solid 3px var(--secondary-color);
     width: 40%;
     margin: 3.5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -163,7 +163,7 @@ section {
     height: 20px;
     width: 20px;
     background: rgba(255, 255, 255, 0.75);
-    border: 1px solivar(-);
+    border: 1px solid var(--secondary-color);
     position: absolute;
     top: -4px;
     left: -30px;
@@ -182,15 +182,15 @@ section {
     position: absolute;
     left: -29px;
     top: -3px;
-    background-image: radial-gradient(circle,var(--tertiary-color)var(-));
+    background-image: radial-gradient(circle, var(--tertiary-color) var(--secondary-color) );
 }
 
 .checkbox-wrapper label::after {
     content: "";
     height: 6px;
     width: 14px;
-    border-left: 2px solivar(-);
-    border-bottom: 2px solivar(-);
+    border-left: 2px var(--secondary-color);
+    border-bottom: 2px var(--secondary-color);
     position: absolute;
     left: -26px;
     top: 1px;
@@ -220,11 +220,11 @@ section {
 }
 
 .form-input {
-    border: 1px solivar(-);
+    border: 1px var(--secondary-color);
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color:#024e76;
+    color:var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -447,7 +447,7 @@ section {
 }
 
 .contact-form input, .contact-form textarea {
-    border: 1px solivar(-);
+    border: 1px var(--secondary-color);
     display: block;
     padding: 7px 15px;
     font-size: 16px;
